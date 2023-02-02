@@ -3,7 +3,7 @@ FROM ubuntu
 RUN apt update -y
 RUN apt upgrade -y
 
-RUN apt insatll python3 -y
+RUN apt install python3 -y
 
 EXPOSE 5000
 
