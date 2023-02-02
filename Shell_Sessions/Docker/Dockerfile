@@ -5,6 +5,6 @@ RUN apt upgrade -y
 
 RUN apt insatll python3 -y
 
-EXPOSE 8082
+EXPOSE 5000
 
-CMD [python3 -m http.server]
+CMD [python3 -m http.server 5000]
